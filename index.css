@@ -22,7 +22,7 @@ header {
     padding-right: 20px;
 }
 .nav-links a {
-    color: black;
+    color: rgb(182,189,244);
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: rgba(31, 68, 76, 0.911);
     display: flex;
     gap:16px;
-    padding: 20px;
+    padding: 25px;
     align-items: center;
     border-radius: 25px;
 }
@@ -63,6 +63,7 @@ body {
 }
 h1, p {
     text-align: center;
+    color: rgb(182,189,244);
 }
 h1 {
     font-size: 32px;
