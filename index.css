@@ -31,6 +31,9 @@ header {
 body {
     background-image: url(/images/final-fantasy-vii-remake-4k-ultra-hd-wallpaper-background-m5u06ivctihnxdj6\ \(1\).jpeg);
     background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 /*  Main  */
@@ -40,12 +43,30 @@ body {
     top: 25%;
     left: 25%;
     width: 50%;
-    height: 30%;
+    height: 40%;
     background-color: rgba(31, 68, 76, 0.911);
+    display: flex;
+    gap:16px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 25px;
 }
 .main-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+#main-ffxvi{
+   width: auto;
+   height: 300px;
+}
+h1, p {
+    text-align: center;
+}
+h1 {
+    font-size: 32px;
+}
+p {
+    font-size: 20px;
 }
