@@ -100,3 +100,16 @@ span {
 span {
     padding: 20px
 }
+
+/* Quote Section */
+
+#quote {
+    position: absolute;
+    background-image: url(/images/933659.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 1400px;
+    width: 100%;
+    height: 500px;
+}
