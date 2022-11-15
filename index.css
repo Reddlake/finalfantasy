@@ -3,7 +3,7 @@
 header {
     display: flex;
     width: 100vw;
-    background-color: rgba(75, 16, 143, 0.836);
+    background-color: rgb(31,68,76);
     position: fixed;
 }
 .container {
@@ -24,4 +24,28 @@ header {
 .nav-links a {
     color: black;
     text-decoration: none;
+}
+
+/* Background*/
+
+body {
+    background-image: url(/images/final-fantasy-vii-remake-4k-ultra-hd-wallpaper-background-m5u06ivctihnxdj6\ \(1\).jpeg);
+    background-position: fixed;
+}
+
+/*  Main  */
+
+#main {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 30%;
+    background-color: rgba(31, 68, 76, 0.911);
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
