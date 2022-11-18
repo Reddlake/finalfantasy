@@ -18,6 +18,10 @@ header {
     gap: 30px;
     align-items: center;
 }
+.button {
+    background-color:rgb(31,68,76);
+    border-radius: 10px;
+}
 #note {
     width: auto;
     height: 50px;
